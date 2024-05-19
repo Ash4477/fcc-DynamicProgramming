@@ -15,3 +15,4 @@ console.log(gridTraveler(18,18));
 
 // Time Complexity: O(n*m)
 // Space Complexity: O(n+m)
+// note: gridTraveler(a,b) is equal to gridTraveler(b,a)
