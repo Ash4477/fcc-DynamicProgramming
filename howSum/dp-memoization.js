@@ -24,4 +24,4 @@ console.log(howSum(300, [7,14]));
 
 // let m = targetSum, n = arraylength
 // Time Complexity: O(n*m)
-// Space Complexity: O(m)
+// Space Complexity: O(m*m) m key with at most m element array
