@@ -14,3 +14,5 @@ console.log(fib(6));
 console.log(fib(7));
 console.log(fib(8));
 console.log(fib(50));
+
+// O(n) time
