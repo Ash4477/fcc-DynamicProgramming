@@ -3,7 +3,7 @@ const countConstruct = (target, wordBank) => {
 
     let totalCount = 0;
 
-    for (word of wordBank) {
+    for (let word of wordBank) {
         if (target.indexOf(word) === 0) {
             const numWaysForRest = countConstruct(target.slice(word.length),wordBank);
             totalCount += numWaysForRest;
